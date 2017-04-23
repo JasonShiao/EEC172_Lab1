@@ -1,0 +1,20 @@
+Description:
+  When you press SW3, the LEDs will act as a binary counter and the P18 will be low.
+  When you press SW2, the LEDs will blink simultaneously and the P18 will be high.
+  
+--------------------------------------------------------------------------------------------
+
+PIN MUX CONFIGURATION:
+  pin64: RED LED
+  pin1: YELLOW LED
+  pin2: GREEN LED
+  pin4: SW3
+  pin15: SW2
+  pin18: P18 on P2 header
+  
+--------------------------------------------------------------------------------------------
+Usage:
+  1. Add main.c, pin_mux_config.h, and pin_mux_config.c in your project in Code Composer Studio
+  2. Check gpio_if.c and uart_if.c are in your project in the project manager
+  
+  
